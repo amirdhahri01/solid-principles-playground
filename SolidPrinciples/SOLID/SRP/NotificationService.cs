@@ -1,6 +1,4 @@
-
-namespace SolidPrinciples.SOLID
-{
+namespace SolidPrinciples.SOLID.SRP{
     public class NotificationService
     {
         public enum enNotificationType { Email, SMS, FAX };

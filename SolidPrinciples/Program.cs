@@ -1,4 +1,4 @@
-﻿using SolidPrinciples.SOLID;
+﻿using SolidPrinciples.SOLID.SRP;
 
 namespace SOLID
 {
