@@ -1,40 +1,34 @@
-namespace SolidPrinciples.SOLID.SRP{
+namespace SolidPrinciples.SOLID.SRP
+{
     public class NotificationService
     {
         public enum enNotificationType { Email, SMS, FAX };
-        public void SendNotification(string to, string message, enNotificationType NotificationType)
+        public void SendNotification(string to, string message, IService service)
         {
-            if (NotificationType == enNotificationType.Email)
-            {
-                EmailService.SendEmail(to, message);
-            }
-            else if (NotificationType == enNotificationType.SMS)
-            {
-                SMSService.SendSMS(to, message);
-            }
-            else if (NotificationType == enNotificationType.FAX)
-            {
-                FaxService.SendFax(to, message);
-            }
+            service.Send(to, message);
         }
     }
-    public class EmailService
+    public interface IService
     {
-        public static void SendEmail(string to, string message)
+        void Send(string to, string message);
+    }
+    public class EmailService : IService
+    {
+        public void Send(string to, string message)
         {
             Console.WriteLine($"\nSending Email to {to} : {message}");
         }
     }
-    public class SMSService
+    public class SMSService : IService
     {
-        public static void SendSMS(string to, string message)
+        public void Send(string to, string message)
         {
             Console.WriteLine($"\nSending SMS to {to} : {message}");
         }
     }
-    public class FaxService
+    public class FaxService : IService
     {
-        public static void SendFax(string to, string message)
+        public void Send(string to, string message)
         {
             Console.WriteLine($"\nSending Fax to {to} : {message}");
         }

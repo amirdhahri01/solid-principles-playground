@@ -8,9 +8,9 @@ namespace SOLID
         public static void Main(string[] args)
         {
             NotificationService notificationService = new NotificationService();
-            notificationService.SendNotification("Jhonazdaz", "Helo", NotificationService.enNotificationType.Email);
-            notificationService.SendNotification("Jhonazdaz", "Helo", NotificationService.enNotificationType.SMS);
-            notificationService.SendNotification("Jhonazdaz", "Helo", NotificationService.enNotificationType.FAX);
+            notificationService.SendNotification("Jhonazdaz", "Helo", new EmailService());
+            notificationService.SendNotification("Jhonazdaz", "Helo", new SMSService());
+            notificationService.SendNotification("Jhonazdaz", "Helo", new FaxService());
         }
     }
 }
