@@ -8,26 +8,35 @@ namespace SolidPrinciples.SOLID
         {
             if (NotificationType == enNotificationType.Email)
             {
-                SendEmail(to, message);
+                EmailService.SendEmail(to, message);
             }
             else if (NotificationType == enNotificationType.SMS)
             {
-                SendSMS(to, message);
+                SMSService.SendSMS(to, message);
             }
             else if (NotificationType == enNotificationType.FAX)
             {
-                SendFax(to, message);
+                FaxService.SendFax(to, message);
             }
         }
-        public void SendEmail(string to, string message)
+    }
+    public class EmailService
+    {
+        public static void SendEmail(string to, string message)
         {
             Console.WriteLine($"\nSending Email to {to} : {message}");
         }
-        public void SendSMS(string to, string message)
+    }
+    public class SMSService
+    {
+        public static void SendSMS(string to, string message)
         {
             Console.WriteLine($"\nSending SMS to {to} : {message}");
         }
-        public void SendFax(string to, string message)
+    }
+    public class FaxService
+    {
+        public static void SendFax(string to, string message)
         {
             Console.WriteLine($"\nSending Fax to {to} : {message}");
         }

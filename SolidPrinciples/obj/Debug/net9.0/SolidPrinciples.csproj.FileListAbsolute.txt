@@ -1,0 +1,15 @@
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\bin\Debug\net9.0\SolidPrinciples.exe
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\bin\Debug\net9.0\SolidPrinciples.deps.json
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\bin\Debug\net9.0\SolidPrinciples.runtimeconfig.json
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\bin\Debug\net9.0\SolidPrinciples.dll
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\bin\Debug\net9.0\SolidPrinciples.pdb
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.AssemblyInfoInputs.cache
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.AssemblyInfo.cs
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.csproj.CoreCompileInputs.cache
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.sourcelink.json
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.dll
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\refint\SolidPrinciples.dll
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.pdb
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\SolidPrinciples.genruntimeconfig.cache
+C:\Users\Amir Dhahri\Desktop\solid-principles-playground\SolidPrinciples\obj\Debug\net9.0\ref\SolidPrinciples.dll
