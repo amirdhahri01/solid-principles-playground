@@ -10,7 +10,7 @@ namespace SolidPrinciples.SOLID.SRP
     }
     public interface IService
     {
-        void Send(string to, string message);
+        public void Send(string to, string message);
     }
     public class EmailService : IService
     {
