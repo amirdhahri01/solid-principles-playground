@@ -16,8 +16,8 @@ namespace SOLID
             bird1.Fly();
             bird1.Eat();
             Bird bird2 = new Ostrich();
-            bird2.Fly();
             bird2.Eat();
+            bird2.Fly();
         }
     }
 }
