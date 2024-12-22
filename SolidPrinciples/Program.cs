@@ -1,4 +1,5 @@
-﻿using SolidPrinciples.SOLID.SRP;
+﻿using SolidPrinciples.SOLID.LSP;
+using SolidPrinciples.SOLID.SRP;
 
 namespace SOLID
 {
@@ -11,6 +12,12 @@ namespace SOLID
             notificationService.SendNotification("Jhonazdaz", "Helo", new EmailService());
             notificationService.SendNotification("Jhonazdaz", "Helo", new SMSService());
             notificationService.SendNotification("Jhonazdaz", "Helo", new FaxService());
+            Bird bird1 = new Eagle();
+            bird1.Fly();
+            bird1.Eat();
+            Bird bird2 = new Ostrich();
+            bird2.Fly();
+            bird2.Eat();
         }
     }
 }
